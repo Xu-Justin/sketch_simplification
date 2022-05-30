@@ -2,7 +2,7 @@
 
 **This repository is forked from [ramilmsh/sketch_simplification](https://github.com/ramilmsh/sketch_simplification) and modified. Please refers to [bobbens/sketch_simplification](https://github.com/bobbens/sketch_simplification) for more information about the original Sketch Simplification.**
 
-In this repository, I convert the sketch simplification code into package and delete all unused files.
+In this repository, I convert the sketch simplification code into a package and **delete** all unused files.
 
 ## Usage
 
