@@ -6,7 +6,7 @@ In this repository, I convert the sketch simplification code into a package and 
 
 ## Usage
 
-In order to use this repository as your package, you need to clone this repository and download the [`model_gan.pth`](https://mega.nz/folder/2lUn1YbY#JhTkB1vdaBMeTCSs37iTVA) to the root folder of your project.
+In order to use this repository as your package, you need to clone this repository and download the [`model_gan.pth`](https://drive.google.com/file/d/1-16NelGGRQBOBa42OFpgu3QX4y4rSs0q/view?usp=sharing) to the root folder of your project.
 
 ```
 your_project
