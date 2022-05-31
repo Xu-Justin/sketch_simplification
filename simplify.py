@@ -3,8 +3,8 @@ from torchvision import transforms
 from . import model_gan
 
 class Simplification:
-    def __init__(self, device=torch.device('cpu')):
-        self.device = device
+    def __init__(self, device='cpu'):
+        self.device = torch.device(device)
         self.model = model_gan.model
         self.immean = model_gan.immean
         self.imstd = model_gan.imstd
