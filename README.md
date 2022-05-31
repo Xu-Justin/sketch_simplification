@@ -23,7 +23,7 @@ Then, you could just import `sketch_simplification` into your projects.
 import sketch_simplification
 from PIL import Image
 
-model = sketch_simplification.Simplification()
+model = sketch_simplification.Simplification(device='cuda')
 
 image = Image.open('image.jpg')
 result = model.simplify(image)
