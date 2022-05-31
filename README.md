@@ -21,11 +21,11 @@ Then, you could just import `sketch_simplification` into your projects.
 
 ```py
 import sketch_simplification
-import PIL
+from PIL import Image
 
 model = sketch_simplification.Simplification()
 
-image = PIL.Image.open('image.jpg')
+image = Image.open('image.jpg')
 result = model.simplify(image)
 result.save('out.jpg')
 ```
