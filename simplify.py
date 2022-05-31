@@ -2,7 +2,7 @@ import torch
 from torchvision import transforms
 from . import model_gan
 
-class Simplification:
+class sketch_simplification:
     def __init__(self, device='cpu'):
         self.device = torch.device(device)
         self.model = model_gan.model

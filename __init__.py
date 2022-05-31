@@ -1,1 +1,1 @@
-from .simplify import Simplification
+from .simplify import sketch_simplification
