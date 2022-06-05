@@ -3,12 +3,12 @@ from torchvision import transforms
 from . import model_gan
 
 class sketch_simplification:
-    def __init__(self, device='cpu'):
+    def __init__(self, weight='model_gan.pth', device='cpu'):
         self.device = torch.device(device)
         self.model = model_gan.model
         self.immean = model_gan.immean
         self.imstd = model_gan.imstd
-        self.load('model_gan.pth', self.device)
+        self.load(weight, self.device)
         self.model.to(self.device)
 
     def load(self, path, map_location=torch.device('cpu')):
